@@ -1,2 +1,5 @@
 node_modules
 .idea
+# this are the current output I've been creating
+*.txt
+*.webp
