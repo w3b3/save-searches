@@ -1,28 +1,38 @@
-# Create repo
+# Structured Saving Searches
 
-Done
+Organize your searches in a structured way.
 
-# Search for a CLI tooling or how to consume NODE JS native args
+- Have a private log of your searches
+- Recall the options presented (not structured) by seeing a page screenshot (`.png` file)
+  - A convertion to PDF or Spreadsheet should be available next
+- Store all the results in a structured way, saving to an online database service (Astra DB, from DataStax)
+  - Parsing of the links found, and recorded in the database
+- Perform retrievals from your records using the same CLI used to save the searches
 
-Couple options. I've chosen Commander.
+## Installation
 
+TODO
 
+## How to Search
 
-## Search arg
+TODO: add default format such as `search <search term> <RESULTS>`
 
-default implicit input is SEARCH
+- default implicit input is SEARCH
 
-it should accept several words (to be used as a single search term)
+- it should accept several words (to be used as a single search term)
 
-## Results arg
+### Results arg
 
-a second input param is RESULTS that takes an integer. 
+RESULTS that takes an integer.
+
+It is the second input param.
 
 This is the number of browser tabs that should be opened
 
-# How to open a browser based on the CLI inputs
-# Run a search on duck duck go
-# Use input term as “search keyword”
-# Capture the search results (and save it for possible later usage)
-# Parse the results, capturing the links
-# Open 1 (or more depending on RESULTS input) Browser tabs with the captured link
+# How it works?
+
+Running a search opens a browser based on the CLI inputs.
+
+The search provider is duck duck go
+
+search results are captured in a screenshot saved in a local folder structure
